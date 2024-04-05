@@ -1,0 +1,54 @@
+[
+  {
+    "model": "api.album",
+    "pk": 1,
+    "fields": {
+      "title": "Álbum 1",
+      "release_date": "2022-01-01"
+    }
+  },
+  {
+    "model": "api.album",
+    "pk": 2,
+    "fields": {
+      "title": "Álbum 2",
+      "release_date": "2023-05-15"
+    }
+  },
+  {
+    "model": "api.song",
+    "pk": 1,
+    "fields": {
+      "title": "Canción 1",
+      "artist": "Artista 1",
+      "album": 1
+    }
+  },
+  {
+    "model": "api.song",
+    "pk": 2,
+    "fields": {
+      "title": "Canción 2",
+      "artist": "Artista 1",
+      "album": 1
+    }
+  },
+  {
+    "model": "api.song",
+    "pk": 3,
+    "fields": {
+      "title": "Canción 3",
+      "artist": "Artista 1",
+      "album": 2
+    }
+  },
+  {
+    "model": "api.song",
+    "pk": 4,
+    "fields": {
+      "title": "Canción 4",
+      "artist": "Artista 1",
+      "album": 2
+    }
+  }
+]
