@@ -44,4 +44,22 @@ python manage.py collectstatic
 python manage.py runserver
 pip list
 python manage.py runserver
+
+# ASTRO:
+
+cd astro
+npm run dev
+
+cd ..
+ls
+cd django
+
+python manage.py runserver
+cd ..
+
+cd astro
+npm run dev
+
+pip install django-cors-headers\n
+python manage.py runserver
 ```
